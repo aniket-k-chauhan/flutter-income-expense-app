@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:income_expense_app/features/account/screens/verification_code_screen.dart';
 import 'package:income_expense_app/features/splash/screens/splash_screen.dart';
 import 'package:income_expense_app/routes/route_generator.dart';
 
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
       title: "Income Expense App",
       theme: ThemeData(fontFamily: "Poppins"),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: const SplashScreen(),
+      home: const VerificationCodeScreen(),
     );
   }
 }
