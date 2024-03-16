@@ -13,4 +13,6 @@ class GlobalVariables {
 
   // text
   static const textPrimary = Color.fromRGBO(43, 64, 91, 1);
+  static const Color textGreyColor = Color.fromRGBO(142, 162, 187, 1);
+  static const Color textLightPrimary = Color.fromRGBO(68, 100, 144, 1);
 }
